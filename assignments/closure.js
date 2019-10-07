@@ -5,6 +5,16 @@
 // The outer scope can be a parent function, or the top level of the script.
 
 
+function parent(){
+  const oldCar = "Ford Escort"
+  
+  function child(){
+    return `I inherited an old ${oldCar} from my parent`;
+  }
+}
+
+console.log(child());
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
