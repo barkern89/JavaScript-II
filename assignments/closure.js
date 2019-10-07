@@ -5,15 +5,20 @@
 // The outer scope can be a parent function, or the top level of the script.
 
 
-function parent(){
-  const oldCar = "Ford Escort"
+function parents(){
+  const parentsOldCar = "Ford Escort";
   
+
   function child(){
-    return `I inherited an old ${oldCar} from my parent`;
+    console.log(`I inherited an old ${parentsOldCar} from my parents`);
+    return parentsOldCar;
   }
+
+  child();
+
 }
 
-console.log(child());
+parents();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
