@@ -85,7 +85,7 @@ function contains(item, list, callback) {
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
 }
-return (contains('Pencil',items,console.log))
+(contains('Pencil',items,console.log))
 /* STRETCH PROBLEM */
 
 
