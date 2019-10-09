@@ -10,11 +10,11 @@ function parents(){
   
 
   function child(){
-    console.log(`I inherited an old ${parentsOldCar} from my parents`);
-    return parentsOldCar;
+    return `I inherited an old ${parentsOldCar} from my parents`;
+    
   }
 
-  child();
+  console.log(child());
 
 }
 

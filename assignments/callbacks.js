@@ -67,13 +67,13 @@ function doMath(x,y,callback){
 
     function sumNums(x,y) {
       // sumNums adds two numbers (x, y) and passes the result to the callback.
-      return x + y;
+      return `The sum of ${x} and ${y} is ${x + y}`;
     }
     console.log(doMath(5,5,sumNums));
 
     function multiplyNums(x, y) {
       // multiplyNums multiplies two numbers and passes the result to the callback.
-      return x * y;
+      return `The product of ${x} and ${y} is ${x * y}`;
     }
 
     console.log(doMath(5,5,multiplyNums))
@@ -85,7 +85,7 @@ function contains(item, list, callback) {
   // contains checks if an item is present inside of the given array/list.
   // Pass true to the callback if it is, otherwise pass false.
 }
-(contains('Pencil',items,console.log))
+(contains('Pencil',items,console.log));
 /* STRETCH PROBLEM */
 
 
